@@ -1,0 +1,42 @@
+
+*{margin:0;}
+
+html{font-size:10px;}
+body{font-size:1rem;}
+a{text-decoration:none;color:#FFF;}
+
+header{height:3.8rem; background-color:#4e4e4e;}
+header > .logo{padding-top:0.9rem; padding-left:4.0rem;}
+
+header > nav{width: 38.0rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 4rem;}
+
+header > nav > .menu{display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li{float: left;margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a{color: #989898;font-family: 'Noto Sans KR', sans-serif;font-size: 0.7rem;font-weight: 500;letter-spacing: -0.03rem;}
+header > nav > .menu > ul > li > a:hover{color: #fff;}
+
+section > .keyvisual{text-align:center; background-color:#292929; height:24.4rem;}
+section > .keyvisual > img{padding-top:04.0rem;}
+
+section > .profile{background-color:#D8D8D8; height:45.4rem;}
+.profile_01, .profile_02, .profile_03, .profile_04{padding-left:7.9rem;}
+
+section > .profile > .profile_01{padding-top:1.7rem;}
+section > .profile > .profile_02, .profile_03, .profile_04{margin-top:2.5rem;}
+
+
+.portfoilo1, .portfoilo2, .portfoilo3, .portfoilo4{text-align:center;}
+
+section > .portfoilo1{background-color:#292929;height:39.5rem;}
+section > .portfoilo2{background-color:#D8D8D8;height:39.5rem;}
+section > .portfoilo3{background-color:#292929;height:41.7rem;}
+section > .portfoilo4{background-color:#D8D8D8;height: 48.0rem;}
+
+section > .portfoilo1 > img{margin-top:1.2rem;}
+section > .portfoilo2 > img{margin-top:1.2rem;}
+section > .portfoilo3 > img{margin-top:1.2rem;}
+section > .portfoilo4 > img{margin-top:1.2rem;}
+
+footer {background-color:#292929;height:9.1rem; text-align:center;}
+footer > img{margin-top:1.5rem;}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+	<head>
+    <meta charset='utf-8'>
+    <title>Yejin's Portpoilo</title>
+	<meta name="viewport" content="width=414, user-scalable=no, target-density-dpi=device-dpi">
+    <link rel="stylesheet" href="css/m_style.css">
+	<link rel="stylesheet" href="css/aos.css">
+</head>
+ <body>
+	<header>
+    <nav>
+    	<div class="logo">
+        	<img src="img/m_logo.png" alt="logo">
+            </div>
+            <div class="menu">
+          <ul>
+            <li><a onclick="fnMove('1')">Package</a></li>
+            <li><a onclick="fnMove('2')">CI</a></li>
+            <li><a onclick="fnMove('3')">UI/UX</a></li>
+            <li><a onclick="fnMove('4')">Editorial</a></li>
+          </ul>
+        </div>
+        </nav>
+    </header>
+    
+        <section>
+          <div class="keyvisual">
+          <img src="img/m_keyvisual.png" alt="slogan" data-aos="fade-up">
+          </div>
+          <div class="profile">
+        <div class="profile_01" data-aos="fade-up"><img src="img/m_01.png" alt="이름/연락처"></div>
+        <div class="profile_02" data-aos="fade-up"><img src="img/m_02.png" alt="education"></div>
+        <div class="profile_03" data-aos="fade-up"><img src="img/m_03.png" alt="skills"></div>
+        <div class="profile_04" data-aos="fade-up"><img src="img/m_04.png" alt="certificate"></div>
+          </div>
+          
+          <div class="portfoilo1" id="anchor1">
+            <img src="img/m_pt01.png" alt="패키지 디자인" data-aos="fade-up">
+          </div>
+          <div class="portfoilo2" id="anchor2">
+            <img src="img/m_pt02.png" alt="CI" data-aos="fade-up">
+          </div>
+          <div class="portfoilo3" id="anchor3">
+            <img src="img/m_pt03.png" alt="UI/UX" data-aos="fade-up">
+          </div>
+          <div class="portfoilo4" id="anchor4">
+            <img src="img/m_pt04.png" alt="편집 디자인" data-aos="fade-up">
+          </div>
+          
+        </section>
+        
+        <footer>
+          <div class="footer">
+            <img src="img/m_footer.png" alt="footer">
+          </div>
+        </footer>
+        
+        <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+      }
+    </script>
+    
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+ 
+            
+ </body>
+</html>
